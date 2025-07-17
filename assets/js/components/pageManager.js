@@ -50,16 +50,16 @@ class PageManager {
                 </div>
 
                 <div class="section">
-                    <h2>💻 <a href="#" onclick="event.preventDefault(); window.pageManager.showPage('projects')" style="text-decoration: underline;"> Projects</a></h2>
+                    <h3>💻 <a href="#" onclick="event.preventDefault(); window.pageManager.showPage('projects')" style="text-decoration: underline;"> Projects</a></h3>
                 </div>
 
                 <div class= "section">
-                    <h2> 🎓 Education </h2>
+                    <h3> 🎓 Education </h3>
                     ${this.renderEducationSection()}
                 </div>
 
                 <div class="section" style="margin-top: 3rem;">
-                    <h2>📷 Last :)</h2>
+                    <h3>📷 Last :)</h3>
                     <p>Live a life you will remember~<a href="https://www.instagram.com/rongm_?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" style="text-decoration: underline;">rongm_</a></p>
                     <p>Thanks for visiting my website! Feel free to reach out if you'd like to connect or collaborate on interesting projects.</p>
                 </div>
@@ -75,7 +75,7 @@ class PageManager {
         return `
             <div class="education-section">
                 <h4>Carnegie Mellon University</h4>
-                <p>M.S. Artificial Intelligence (Aug 2024 - Dec 2025)</p>
+                <p>M.S. Artificial Intelligence (Expected Aug 2024 - Dec 2025)</p>
             </div>
             <div class="education-section">
                 <h4>University of California, Irvine</h4>
@@ -189,7 +189,7 @@ class PageManager {
                         <h3>📚 Currently Learning</h3>
                         <p>Raft Consensus</p>
                         <p>Database Systems</p>
-                        <p>Transformer</p>
+                        <p>Transformer Architecture</p>
                     </div>
                     
                     <div class="misc-item">
