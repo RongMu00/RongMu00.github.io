@@ -1,0 +1,35 @@
+.project-item {
+    border-bottom: 1px solid var(--border-color);
+    padding: var(--spacing-lg) 0;
+}
+
+.project-item:last-child {
+    border-bottom: none;
+}
+
+.project-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary-color);
+}
+
+.project-description {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.tech-tag {
+    background-color: #f8f8f8;
+    color: var(--secondary-color);
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.8rem;
+    border: 1px solid #e8e8e8;
+}
