@@ -63,7 +63,8 @@ class PageManager {
                 ${projectsData.map(project => `
                     <div class="project-item">
                         <div class="project-title">${project.title}</div>
-                        <div class="project-description">${project.description}</div>
+                        <div class="project-date">${project.date}</div>
+                        <div class="project-description">${project.description.replace(/\n/g, '<br>')}</div>
                         <div class="project-tech">
                             ${project.technologies.map(tech => 
                                 `<span class="tech-tag">${tech}</span>`

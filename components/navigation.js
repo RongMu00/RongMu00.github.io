@@ -4,7 +4,7 @@ class Navigation {
             { id: 'home', label: 'Home', active: true },
             { id: 'projects', label: 'Projects', active: false },
             { id: 'experience', label: 'Experience', active: false },
-            { id: 'blog', label: 'Blog', active: false },
+            { id: 'blog', label: 'Notes', active: false },
             { id: 'misc', label: 'Misc', active: false }
         ];
         this.render();
@@ -14,7 +14,7 @@ class Navigation {
     render() {
         const navHTML = `
             <div class="nav-container">
-                <div class="logo">John Doe</div>
+                <div class="logo">Welcome</div>
                 <ul class="nav-menu">
                     ${this.navItems.map(item => `
                         <li class="nav-item ${item.active ? 'active' : ''}" 
